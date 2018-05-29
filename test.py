@@ -1,8 +1,8 @@
 print("test")
 
-def print_x_5(string):
-    for i in range(0, 5):
+def print_x_10(string):
+    for i in range(0, 10):
         print(string, end="")
 
 user_str = input()
-print_x_5(user_str)
+print_x_10(user_str)
